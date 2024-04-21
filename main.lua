@@ -56,7 +56,7 @@ function love.keypressed(key)
         end
     end
 
-    if key == "s" then -- 'S' for Shake
+    if key == "s" then -- 'S' for Stop
         for i,v in ipairs(objects.listOfBalls) do -- Call function for all balls
             v:stop()
         end
